@@ -100,13 +100,13 @@ a .fab {
   max-width: 33%;
 }
 
-.course .descrition {
+.course .deskripsi {
   -ms-flex: 0 0 66.6%;
   flex: 0 0 66.6%;
   max-width: 66.6%;
 }
 
-.course .descrition p {
+.course .deskripsi p {
   padding-left: 1em;
 }
 
@@ -126,16 +126,16 @@ a .fab {
   color: #509e98;
 }
 
-.school, .job-title {
+.sekolah, .job-title {
   text-transform: capitalize;
 }
 
-.school span, .job-title span {
+.sekolah span, .job-title span {
   color: #889499;
   text-decoration: underline;
 }
 
-ul.job-description li:before{
+ul.job-deskripsi li:before{
   content: "✔";
   padding-right: 0.5em;
   color: #509e98;
@@ -147,7 +147,7 @@ ul.job-description li:before{
     display: block;
   }
 
-  .course .title, .course .descrition {
+  .course .title, .course .deskripsi {
     max-width: 100%;
   }
 }
