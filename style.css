@@ -116,9 +116,6 @@ a .fab {
   max-width: 50%;
 }
 
-.skills .column ul, ul.job-description {
-  list-style-type: none;
-}
 
 .skills .column ul > li:before {
   content: "►";
@@ -126,20 +123,7 @@ a .fab {
   color: #509e98;
 }
 
-.sekolah, .job-title {
-  text-transform: capitalize;
-}
 
-.sekolah span, .job-title span {
-  color: #889499;
-  text-decoration: underline;
-}
-
-ul.job-deskripsi li:before{
-  content: "✔";
-  padding-right: 0.5em;
-  color: #509e98;
-}
 
 
 @media only screen and (max-width: 768px) {
